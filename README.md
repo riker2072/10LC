@@ -50,7 +50,9 @@ Get 10LC.ino.bin, 10LC.ino.bootloader.bin and 1LC.ino.partitions.bin files.
 Get Windows ESP32 flash download tool at: https://www.espressif.com/en/support/download/other-tools
 
 Click on … to select 10LC.ino.bin file directory location.  In the @ box, put 0x10000
+
 Click on … to select 10LC.ino.bootloader.bin file directory location.  In the @ box, put 0x0000
+
 Click on … to select 10LC.ino.partitions.bin file directory location.  In the @ box, put 0x8000
 
 SPI speed is 40MHz, SPI mode is DIO.  Check mark in the box labeled “DoNotChgBin”.  My port settings are COM4, baud 115200.  Connect the M5 Cardputer to your PC using a USB C cable.  Click on START to burn the firmware.
