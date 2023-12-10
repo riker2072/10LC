@@ -4,7 +4,7 @@
 
 Beta version 0.9 notes
 
-Advantage of this implementation is speed, but not using calc. ROM means some aspects of the calculator may seem different than original.  Source code may be released at a later date after clean up.
+Advantage of this implementation is speed, but not using calc. ROM means some aspects of the calculator may seem different than original.  Source code may be released at a later date after clean up.  Recommended micro SD flash (to retain program, registers, etc.) - SanDisk Ultra 16GB SDHC.  Card may need to be formatted.
 
 Features:
 
