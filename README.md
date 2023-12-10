@@ -4,7 +4,7 @@
 
 Beta version 0.9 notes
 
-Advantage of this implementation is speed, but not using calc. ROM means some aspects of the calculator may seem different than original.  
+Advantage of this implementation is speed, but not using calc. ROM means some aspects of the calculator may seem different than original.  Source code may be released at a later date after clean up.
 
 Features:
 
