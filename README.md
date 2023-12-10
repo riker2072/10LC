@@ -20,12 +20,11 @@ Known issues / differences from 10C:
 - EEX implemented slightly differently - single digit exponent processed immediately
 - Clear prefix not implemented
 - Eng notation not implemented
-- Fix and Sci settings not retained after shutdown
-- In program mode, GTO . will display the line number you are jumping to, but will look like an instruction
 - SST in normal calculator mode looks different for GTO or branching
-- ENTER key in program mode is 46 instead of 36.
-- LASTX in program mode is 36 instead of 42.36
+- LASTX in program mode is 46 instead of 42.36
 - commas for numbers and dot separators in program mode are not implemented
+- tangent function less accurate when close to 90 degrees
+- battery drains in sleep mode - use hardware off switch to preserve battery life
 
 Program mode has been tested with program examples from the 10C manual:
 
@@ -48,6 +47,12 @@ Go to Github riker2072 10LC repository.
 Get 10LC.ino.bin, 10LC.ino.bootloader.bin and 1LC.ino.partitions.bin files.
 
 Get Windows ESP32 flash download tool at: https://www.espressif.com/en/support/download/other-tools
+
+For ChipType, use ESP32-S3
+
+For WorkMode, use Develop
+
+For LoadMode, use USB
 
 Click on … to select 10LC.ino.bin file directory location.  In the @ box, put 0x10000
 
