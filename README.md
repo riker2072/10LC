@@ -4,7 +4,9 @@
 
 Beta version 0.9 notes
 
-Advantage of this implementation is speed, but not using calc. ROM means some aspects of the calculator may seem different than original.  Source code may be released at a later date after clean up.  Recommended micro SD flash (to retain program, registers, etc.) - SanDisk Ultra 16GB SDHC.  Card may need to be formatted.
+Advantage of this implementation is speed, but not using calc. ROM means some aspects of the calculator may seem different than original.  Source code may be released at a later date after clean up.  Recommended micro SD flash (to retain program, registers, etc.) - SanDisk Ultra 16GB SDHC.  Card may need to be formatted.  It can be used without a micro SD card, but programs and registers are not retained.
+
+To retain program and registers, press the OFF key (to the left of the + key).  To prevent battery drain, turn the hardware switch located on top to the OFF position.  The calculator automatically turns off (and retains current settings) after 3 minutes.  To turn back on after an automatic shut off, press the RST (reset) button on the top left of the calculator.
 
 Features:
 
@@ -54,11 +56,11 @@ For WorkMode, use Develop
 
 For LoadMode, use USB
 
-Click on … to select 10LC.ino.bin file directory location.  In the @ box, put 0x10000
+Click on … to select 10LC.ino.bin file directory location.  Check mark in the box on the left.  In the @ box, put 0x10000
 
-Click on … to select 10LC.ino.bootloader.bin file directory location.  In the @ box, put 0x0000
+Click on … to select 10LC.ino.bootloader.bin file directory location.  Check mark in the box on the left.  In the @ box, put 0x0000
 
-Click on … to select 10LC.ino.partitions.bin file directory location.  In the @ box, put 0x8000
+Click on … to select 10LC.ino.partitions.bin file directory location.  Check mark in the box on the left.  In the @ box, put 0x8000
 
 SPI speed is 40MHz, SPI mode is DIO.  Check mark in the box labeled “DoNotChgBin”.  My port settings are COM4, baud 115200.  Connect the M5 Cardputer to your PC using a USB C cable.  Click on START to burn the firmware.
 
