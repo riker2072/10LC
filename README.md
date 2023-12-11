@@ -11,6 +11,7 @@ To retain program and registers, press the OFF key (to the left of the + key).  
 Features:
 
 - 10 registers and 99 program steps
+- 2 line stack X and Y display
 - 2 selectable display fonts
 - 3 selectable display colors
 - audible keyboard beep
