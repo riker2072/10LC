@@ -8,6 +8,8 @@ Advantage of this implementation is speed, but not using calc. ROM means some as
 
 To retain program and registers, press the OFF key (to the left of the + key).  To prevent battery drain, turn the hardware switch located on top to the OFF position.  The calculator automatically turns off (and retains current settings) after 3 minutes.  To turn back on after an automatic shut off, press the RST (reset) button on the top left of the calculator.
 
+The hardware this uses, the M5Stack Cardputer is part number K132 on Digikey.
+
 Features:
 
 - 10 registers and 99 program steps
